@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&family=VT323&display=swap');
+
+body {
+  margin: 20px;
+  font-family: 'Poppins';
+  color: #333;
+}
+/* a {
+  color: rgb(3, 196, 154);
+} */
+a:link { text-decoration: none; 
+}
+
+/* img { */
+  /* max-width: 100%; */
+  /* height: 10px;
+} */
+nav {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  max-width: 960px;
+  margin: 0 auto;
+  border-bottom: 1px solid #e2e2e2;
+  margin-bottom: 40px;
+}
+nav h1 {
+  margin-right: auto;
+}
+.content {
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+
+
+.title {
+  margin: 0rem;
+  display: flex;
+  justify-content: left;
+  align-items: left;
+  gap: 10px 20px;
+  flex-direction: column;
+}
+.title h2 {
+    font-size: 2rem;
+    text-align: left;
+    
+    
+  }
+/* .title p {
+    color: #7b7e86;
+  } */
+
+
+.marketPlaces {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 2rem;}
+  .marketplace {
+    display: flex;
+    flex-direction: column;
+    /* align-items: center;
+    margin-top: 10vh; */
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    padding: 0.5rem;
+    border-radius: 1rem;
+    width: 230px;
+    height: 100px;
+    cursor: pointer;
+    transition: 0.5s ease-in-out;
+    margin-bottom: 30px;
+  }
+    
+.marketplace:hover {
+      box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+        rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+        rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+       
+        outline: medium none;
+    }
+.image {
+      /* margin-bottom: 1rem; */
+      position: relative;
+      top: 8px;
+      text-align: left;  
+      height: 15px; 
+    }
+.name {
+      position: relative;
+      display: flex;
+      color: #000000;
+      top: 35px;
+      /* align-items: center; */
+      /* justify-content: space-between; */
+      padding:0 4rem;
+      
+      
+    }
+
+  .name h4 {
+    font-size: 18px;
+    text-align: center;
+    color: #000000;
+    margin: -27% 10%; 
+     
+ 
+  }
+
+  .flex-container{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+   
+  }
+  
